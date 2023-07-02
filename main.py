@@ -6,6 +6,8 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 
+inventory = []
+
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
